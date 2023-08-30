@@ -107,7 +107,7 @@ img {
 h2 {
     font-size: 36px;
     font-weight: bolder;
-    color: #1f2937;
+    color: #fff3d3;
     text-align: center;
 }
 
@@ -123,7 +123,7 @@ h2 {
 }
 
 .box-color {
-    border: 3px solid #00aec1;
+    border: 5px solid #fff3d3;
     width: 200px;
     height: 200px;
     border-radius: 10px;
@@ -134,9 +134,38 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #221656;
 }
 
 .p-second {
     text-align: center;
     font-size: 18px;
+    color: #fff3d3;
+}
+
+.third-section {
+    background-color: #221656;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #fff3d3;
+    text-align: center;
+}
+
+.p-third {
+    font-size: 18px;
+    color: #fff3d3;
+}
+
+.p-div {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 850px;
 }
