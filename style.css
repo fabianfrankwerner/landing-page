@@ -169,3 +169,54 @@ h3 {
     margin-top: 25px;
     margin-left: 850px;
 }
+
+.fourth-section {
+    height: 300px;
+    background-color: #221656;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fff3d3;
+    width: 75%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.left-container {
+    width: 80%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h4 {
+    font-size: 24px;
+    color: #221656;
+}
+
+.fourth-p {
+    color: #221656;
+    font-size: 18px;
+}
+
+.right-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.btn-last-div {
+    background-color: #221656;
+    color: #fff3d3;
+    width: 150px;
+    height: 50px;
+    border: 1px #221656;
+    border-radius: 10px;
+    font-size: 24px;
+}
