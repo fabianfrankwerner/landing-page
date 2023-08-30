@@ -122,6 +122,13 @@ h2 {
     align-items: center;
 }
 
+/*  */
+.box1 img {
+    object-fit: contain;
+}
+
+/*  */
+
 .box-color {
     border: 5px solid #fff3d3;
     width: 200px;
@@ -139,6 +146,7 @@ h2 {
 
 .p-second {
     text-align: center;
+    margin-top: 10px;
     font-size: 18px;
     color: #fff3d3;
 }
@@ -219,4 +227,12 @@ h4 {
     border: 1px #221656;
     border-radius: 10px;
     font-size: 24px;
+}
+
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #221656;
+    color: #fff3d3;
 }
